@@ -21,7 +21,7 @@ void main()async{
   //getting email from email key
   var email=pref.getString("email");
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
+    debugShowCheckedModeBanner: true,
     //when email is null it got to the login else chatscreen
     //now if we restart it will goto to login page because the email is currently not saved it will save when
     //we register to account or login to account
