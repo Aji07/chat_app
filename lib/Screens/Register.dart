@@ -88,7 +88,7 @@ class _RegisterState extends State<Register> {
               SizedBox(height: 25),
               FlatButton(
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(25))),
-                color: Colors.blue,
+                color: Colors.yellow,
                 onPressed: ()async{
                   SharedPreferences pref = await SharedPreferences.getInstance();
                   //if email and password is not empty it will take action on it
